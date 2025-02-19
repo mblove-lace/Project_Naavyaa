@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -41,8 +42,11 @@ INSTALLED_APPS = [
 
 # CUSTOMED APPS
     'core',
-    # 'store',
+    'store',
+    'customer',
+    'userauths',
     # 'cart',
+
     # 'checkout',
     # 'accounts',
     # 'products',
@@ -161,3 +165,19 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+JAZZMIN_SETTINGS = {
+    'site_header': 'Naavyaa',
+    'site_title': 'Naavyaa',
+    'site_brand': "You order, we deliver",
+    'welcome_sign': 'Welcome to the world of Naavyaa',
+    'site_logo' : 'images/file2.png',
+    'copyright': 'Naavyaa.in',
+
+}
+
+
+
+
+
+
