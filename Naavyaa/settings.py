@@ -178,6 +178,7 @@ JAZZMIN_SETTINGS = {
 
 
 
+# 
 
 
-
+AUTH_USER_MODEL = 'userauths.User'
